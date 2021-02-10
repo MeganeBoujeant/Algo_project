@@ -1,2 +1,2 @@
 # Algo_project
-Projet de l'UE d'allgorithme
+Projet de l'UE d'algorithme
