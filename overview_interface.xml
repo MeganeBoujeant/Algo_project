@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T14:03:27.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="WjL1lzVa_1NXBcs51niX" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T14:04:39.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="vM7yddLROvs1x_dhwFe6" version="14.4.8" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="734" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
           <mxGeometry x="30" y="500" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-20" value="&lt;span&gt;BwtToSeq Page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
-          <mxGeometry x="480" y="610" width="150" height="80" as="geometry" />
+          <mxGeometry x="480" y="515" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-21" value="View final results" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-11" target="hke2I9RWghkm9E8uu6xj-15">
           <mxGeometry x="0.2293" y="-62" relative="1" as="geometry">
@@ -66,7 +66,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-26" value="BWT To Seq" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-15" target="hke2I9RWghkm9E8uu6xj-20">
+        <mxCell id="hke2I9RWghkm9E8uu6xj-26" value="BWT To Seq" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-15" target="hke2I9RWghkm9E8uu6xj-20">
           <mxGeometry x="1" y="36" relative="1" as="geometry">
             <mxPoint x="2" y="1" as="offset" />
           </mxGeometry>
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-28" value="View final results" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-20" target="hke2I9RWghkm9E8uu6xj-31">
-          <mxGeometry x="0.0909" y="-65" relative="1" as="geometry">
+          <mxGeometry x="0.1111" y="-60" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="464.0000000000002" y="630" as="targetPoint" />
           </mxGeometry>
@@ -97,10 +97,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-31" value="&lt;span&gt;Page with :&lt;br&gt;- view of the last step&lt;br&gt;- initial sequence&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
-          <mxGeometry x="485" y="800" width="140" height="60" as="geometry" />
+          <mxGeometry x="485" y="730" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-32" value="Page with the next step.&lt;br&gt;At the last step : make View final results button&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
-          <mxGeometry x="660" y="710" width="170" height="70" as="geometry" />
+          <mxGeometry x="650" y="620" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-32" target="hke2I9RWghkm9E8uu6xj-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -112,8 +112,8 @@
         <mxCell id="hke2I9RWghkm9E8uu6xj-34" value="&lt;span&gt;Page with :&lt;br&gt;&lt;br&gt;- unicode sequence&lt;br&gt;- corresponding binary sequence&lt;br&gt;- initial bwt sequence&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
           <mxGeometry x="65" y="670" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-69" value="BWT To Seq" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-34" target="hke2I9RWghkm9E8uu6xj-20">
-          <mxGeometry x="0.0048" y="-28" relative="1" as="geometry">
+        <mxCell id="hke2I9RWghkm9E8uu6xj-69" value="BWT To Seq" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-34" target="hke2I9RWghkm9E8uu6xj-20">
+          <mxGeometry x="-0.225" y="29" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="199.41" y="820" as="sourcePoint" />
             <mxPoint x="200" y="849.9999999999998" as="targetPoint" />
