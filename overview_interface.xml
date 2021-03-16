@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T14:04:39.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="vM7yddLROvs1x_dhwFe6" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T14:15:27.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="EYf5d9pKJGea_qnTp0d9" version="14.4.8" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
-    <mxGraphModel dx="734" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="891" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="hke2I9RWghkm9E8uu6xj-9" value="Untitled Layer" parent="0" />
@@ -10,15 +10,15 @@
         <mxCell id="hke2I9RWghkm9E8uu6xj-11" value="&lt;span&gt;BWT page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
           <mxGeometry x="295" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-12" value="&lt;span&gt;Huffman page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
-          <mxGeometry x="860" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="hke2I9RWghkm9E8uu6xj-12" value="Page with :&lt;br&gt;&lt;br&gt;- DNA sequence&lt;br&gt;- corresponding binary sequence&lt;br&gt;- unicode which correspond to bytes in binary sequence&lt;br&gt;- unicode sequence&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
+          <mxGeometry x="750" y="160" width="320" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-13" value="Huffman compression" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-10" target="hke2I9RWghkm9E8uu6xj-12">
+        <mxCell id="hke2I9RWghkm9E8uu6xj-13" value="Huffman compression" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-10" target="hke2I9RWghkm9E8uu6xj-12">
           <mxGeometry x="0.642" y="48" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-14" value="BWT" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-10" target="hke2I9RWghkm9E8uu6xj-11">
+        <mxCell id="hke2I9RWghkm9E8uu6xj-14" value="BWT" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-10" target="hke2I9RWghkm9E8uu6xj-11">
           <mxGeometry x="-0.2051" y="-17" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -28,12 +28,6 @@
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-16" value="Page with the next step.&lt;br&gt;At the last step : make View final results button&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
           <mxGeometry x="450" y="260" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-17" value="&lt;span&gt;Action&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
-          <mxGeometry x="780" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-18" value="&lt;span&gt;Action&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
-          <mxGeometry x="970" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-19" value="&lt;span&gt;Page with :&lt;br&gt;&lt;br&gt;-&amp;nbsp;bwt sequence&lt;br&gt;- corresponding binary sequence&lt;br&gt;- unicode which correspond to bytes in binary sequence&lt;br&gt;- unicode sequence&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
           <mxGeometry x="30" y="500" width="340" height="110" as="geometry" />
@@ -51,14 +45,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-23" value="Yes" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-12" target="hke2I9RWghkm9E8uu6xj-17">
-          <mxGeometry x="-0.2614" y="-13" relative="1" as="geometry">
+        <mxCell id="hke2I9RWghkm9E8uu6xj-23" value="Huffman decompression" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-12" target="hke2I9RWghkm9E8uu6xj-71">
+          <mxGeometry y="-80" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hke2I9RWghkm9E8uu6xj-24" value="No" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-12" target="hke2I9RWghkm9E8uu6xj-18">
-          <mxGeometry x="-0.1294" y="17" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="861.8181818181818" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hke2I9RWghkm9E8uu6xj-25" value="Huffman compression" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classic;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="hke2I9RWghkm9E8uu6xj-9" source="hke2I9RWghkm9E8uu6xj-15" target="hke2I9RWghkm9E8uu6xj-19">
@@ -118,6 +108,9 @@
             <mxPoint x="199.41" y="820" as="sourcePoint" />
             <mxPoint x="200" y="849.9999999999998" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hke2I9RWghkm9E8uu6xj-71" value="Page with :&lt;br&gt;&lt;br&gt;- unicode sequence&lt;br&gt;- corresponding binary sequence&lt;br&gt;- initial bwt sequence&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="hke2I9RWghkm9E8uu6xj-9">
+          <mxGeometry x="785" y="370" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
