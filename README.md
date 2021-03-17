@@ -47,6 +47,16 @@ You can also see the documentation of my scripts in the concern tab.
 
 ![main_page_diagram](images/main_page_diagram.png)
 
+#### NB:
+
+When you make:
+
+* a Burrows-Weeler transformation of your DNA sequence, your bwt sequence is save on **bwt.txt** file
+* a Huffman compression, your compression is save on **huffile.txt** file
+* a Huffman decompression, your sequence is save in case you have forgotten to make BWT reconstruction, if you have make Burrows-Weeler transformation before Huffman compression
+
+All these files are saving in the **data** folder.
+
 ### Here is the diagram that shows the menu bar of the application :
 
 ![menu_bar_diagram](images/menu_bar_diagram.png)
