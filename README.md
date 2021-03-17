@@ -1,5 +1,12 @@
 # Algo's project
-Projet de l'UE d'algorithme
+
+This project consists of programming:
+
+* Burrows-Weeler transformation
+* Huffman compression
+* Graphical user interface
+
+It allows make Burrows-Weeler transformation and Huffman compression of a **DNA sequence**.
 
 ## Requirements
 * [Python 3](https://www.python.org/)
@@ -44,10 +51,15 @@ You can also see the documentation of my scripts in the concern tab.
 
 ![menu_bar_diagram](images/menu_bar_diagram.png)
 
-If you click on the Quit menu (or if you use the shortcut Control-q).
-The application will close.
+#### If you click on Quit menu (or if you use the shortcut Control-q), the application will close.
 
-If you click on 
+#### If you click on Home Page menu, your return on the main page of the application.
+
+#### If you click on Open File To Seq menu (or if you use the shortcut Control-o), an file search interface opens.
+3 choices then offers you:
+* If you select **bwt.txt** file : a new page with your BWT sequence opens. From this page, you can make BWT reconstruction to return at the initial DNA sequence, or you can make Huffman compression.
+* If you select **huffile.txt** file : the program make a Huffman decompression. If needed, make BWT reconstruction. And finaly display a new page with your initial DNA sequence.
+* If you select **dechufile.txt** file : the program open a recontruction BWT page to return initial DNA sequence.
 
 
 ## Documentation of my scripts
