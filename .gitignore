@@ -5,3 +5,4 @@ __pycache__/
 
 # MAC Files
 .DS_Store
+.DS
