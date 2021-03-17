@@ -190,7 +190,7 @@ class Controller:
 
         bwt_file = "bwt.txt"
         huff_file = "huffile.txt"
-        bwt_huff_file = "dechuffile.txt"
+        bwt_huff_file = "dechufile.txt"
 
         # If file is a bwt file, display a view which propose to make
         # reconstruction of the initial DNA sequence, or make Huffman
@@ -231,8 +231,18 @@ class Controller:
         # If file is a BWT Huffman file, make reconstruction of the initial DNA
         # sequence
         elif path[len(path)-len(bwt_huff_file):len(path)] == bwt_huff_file:
-            with open('../data/dechuffile.txt') as f:
+            with open('../data/dechufile.txt') as f:
                 self.results_bwt = f.read()
+
+            if 'N' in self.results_bwt:
+                tmp_bwt_results = ""
+                for char in self.results_bwt:
+                    if char == 'N':
+                        tmp_bwt_results += '$'
+                    else:
+                        tmp_bwt_results += char
+                self.results_bwt = tmp_bwt_results
+
             self.back_to_seq_button()
 
 

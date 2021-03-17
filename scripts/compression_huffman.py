@@ -189,9 +189,11 @@ class HuffmanDecompression:
                     path_in_progress = ""
                     break
 
+        self.save_decompression()
+
     def save_decompression(self):
         """ This method save parameters of Huffman decompression. """
 
-        f = open('../data/dechuffile.txt', 'w')
+        f = open('../data/dechufile.txt', 'w')
         f.write(self.initial_seq)
         f.close()
