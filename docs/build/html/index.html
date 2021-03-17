@@ -1,0 +1,673 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Welcome to Algo’s Project documentation! &mdash; Documentation Algo&#39;s Project 0.0.1</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Algo's Project
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to Algo’s Project documentation!</a><ul>
+<li><a class="reference internal" href="#module-BWT">BWT</a></li>
+<li><a class="reference internal" href="#module-compression_huffman">compression_huffman</a></li>
+<li><a class="reference internal" href="#module-tree_node">tree_node</a></li>
+<li><a class="reference internal" href="#module-view">view</a></li>
+<li><a class="reference internal" href="#module-main_controller">main controller</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Algo's Project</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Welcome to Algo’s Project documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-algo-s-project-documentation">
+<h1>Welcome to Algo’s Project documentation!<a class="headerlink" href="#welcome-to-algo-s-project-documentation" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="module-BWT">
+<span id="bwt"></span><h2>BWT<a class="headerlink" href="#module-BWT" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="py class">
+<dt id="BWT.TransformeeBW">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">BWT.</span></code><code class="sig-name descname"><span class="pre">TransformeeBW</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">controller</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#BWT.TransformeeBW" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Class of Burrows-Weeler transformation.</p>
+<dl class="py method">
+<dt id="BWT.TransformeeBW.reconstruction_seq">
+<code class="sig-name descname"><span class="pre">reconstruction_seq</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bwt</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#BWT.TransformeeBW.reconstruction_seq" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Method of re-transformation of the BWT sequence into the original
+sequence.</p>
+<dl class="simple">
+<dt>bwt<span class="classifier">str</span></dt><dd><p>BWT sequence</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>seq<span class="classifier">str</span></dt><dd><p>initial DNA sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="BWT.TransformeeBW.save">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">save</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bwt</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#BWT.TransformeeBW.save" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Method which save bwt sequence when a transformation of sequence is
+made.</p>
+<dl class="simple">
+<dt>bwt<span class="classifier">str</span></dt><dd><p>BWT sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="BWT.TransformeeBW.sort_and_print_matrix">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">sort_and_print_matrix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list_of_mat</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#BWT.TransformeeBW.sort_and_print_matrix" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Method to sort and allows display matrix m.</p>
+<dl class="simple">
+<dt>m<span class="classifier">list</span></dt><dd><p>matrix with elements that we want to sort and display</p>
+</dd>
+<dt>list_of_mat<span class="classifier">list</span></dt><dd><p>list of elements that we will display in the GUI later</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="BWT.TransformeeBW.transformation_seq">
+<code class="sig-name descname"><span class="pre">transformation_seq</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sequence</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#BWT.TransformeeBW.transformation_seq" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Transformation method to obtain the BWT sequence.</p>
+<dl class="simple">
+<dt>sequence<span class="classifier">str</span></dt><dd><p>DNA sequence that we want to make Burrows-Weeler transformation</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>bwt<span class="classifier">str</span></dt><dd><p>BWT sequence corresponding to Burrows-Weeler transformation of DNA
+sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-compression_huffman">
+<span id="compression-huffman"></span><h2>compression_huffman<a class="headerlink" href="#module-compression_huffman" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="py class">
+<dt id="compression_huffman.HuffmanCompression">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">compression_huffman.</span></code><code class="sig-name descname"><span class="pre">HuffmanCompression</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sequence</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanCompression" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Class of Huffman Compression.</p>
+<dl class="py method">
+<dt id="compression_huffman.HuffmanCompression.char_to_str_binary">
+<code class="sig-name descname"><span class="pre">char_to_str_binary</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bin_char</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanCompression.char_to_str_binary" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create a dictionary which give the binary number of each
+character.
+This binary number corresponds to the path taken from the root of the
+tree: 0 = left; 1 = right.</p>
+<dl class="simple">
+<dt>node<span class="classifier">node object</span></dt><dd><p>root node of the tree</p>
+</dd>
+<dt>bin_char<span class="classifier">str</span></dt><dd><p>binary character associated with the node according to if is a left
+child or a right child</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="compression_huffman.HuffmanCompression.compression">
+<code class="sig-name descname"><span class="pre">compression</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanCompression.compression" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method compress the sequence. This method given the unicode
+sequence which correspond to the initial sequence.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="compression_huffman.HuffmanCompression.creation_tree">
+<code class="sig-name descname"><span class="pre">creation_tree</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanCompression.creation_tree" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the binary tree which represent the best
+compression.</p>
+<dl class="simple">
+<dt>tree_list[0]<span class="classifier">object</span></dt><dd><p>root node of the tree</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="compression_huffman.HuffmanCompression.freq_nucleotide">
+<code class="sig-name descname"><span class="pre">freq_nucleotide</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanCompression.freq_nucleotide" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the frequency dictionary of the characters of the
+sequence.</p>
+<dl class="simple">
+<dt>freq<span class="classifier">dict</span></dt><dd><p>frequency dictionary of the characters of the sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="compression_huffman.HuffmanCompression.save_compression">
+<code class="sig-name descname"><span class="pre">save_compression</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanCompression.save_compression" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method save parameters of Huffman compression.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="compression_huffman.HuffmanDecompression">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">compression_huffman.</span></code><code class="sig-name descname"><span class="pre">HuffmanDecompression</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">unicode_sequence</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">len_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dict_bin_char</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanDecompression" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Class of Huffman Decompression.</p>
+<dl class="py method">
+<dt id="compression_huffman.HuffmanDecompression.decompression">
+<code class="sig-name descname"><span class="pre">decompression</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanDecompression.decompression" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method decompress the unicode sequence to given the initial
+sequence.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="compression_huffman.HuffmanDecompression.save_decompression">
+<code class="sig-name descname"><span class="pre">save_decompression</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#compression_huffman.HuffmanDecompression.save_decompression" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method save parameters of Huffman decompression.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-tree_node">
+<span id="tree-node"></span><h2>tree_node<a class="headerlink" href="#module-tree_node" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="py class">
+<dt id="tree_node.TreeNode">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">tree_node.</span></code><code class="sig-name descname"><span class="pre">TreeNode</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">char</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tree_node.TreeNode" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Class to make a tree node.</p>
+<dl class="py method">
+<dt id="tree_node.TreeNode.is_leaf">
+<code class="sig-name descname"><span class="pre">is_leaf</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tree_node.TreeNode.is_leaf" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method test if my node is a leaf or not.</p>
+<dl class="simple">
+<dt>True or False<span class="classifier">booleen</span></dt><dd><p>return true if node is leaf, else return false</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="tree_node.TreeNode.update_child">
+<code class="sig-name descname"><span class="pre">update_child</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">left</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">right</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tree_node.TreeNode.update_child" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method update child of a node.</p>
+<dl class="simple">
+<dt>left<span class="classifier">object</span></dt><dd><p>node which is the left child of the self node</p>
+</dd>
+<dt>right<span class="classifier">object</span></dt><dd><p>node which is the right child of the self node</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-view">
+<span id="view"></span><h2>view<a class="headerlink" href="#module-view" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="py class">
+<dt id="view.View">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">view.</span></code><code class="sig-name descname"><span class="pre">View</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">controller</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.View" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Class of the Graphical User Interface (GUI).</p>
+<dl class="py method">
+<dt id="view.View.add_label">
+<code class="sig-name descname"><span class="pre">add_label</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text_add</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.View.add_label" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method allows add Label widget.</p>
+<dl class="simple">
+<dt>text_add<span class="classifier">str</span></dt><dd><p>text that we want to add in Label widget</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.button_after_bwt">
+<code class="sig-name descname"><span class="pre">button_after_bwt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.button_after_bwt" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create button of the final BWT page.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.button_bwt">
+<code class="sig-name descname"><span class="pre">button_bwt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.button_bwt" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create buttons of the BWT pages.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.button_recon_bwt">
+<code class="sig-name descname"><span class="pre">button_recon_bwt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.button_recon_bwt" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create button of the BWT sequence to reconstruction DNA
+sequence page.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.bwt_page">
+<code class="sig-name descname"><span class="pre">bwt_page</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.bwt_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the BWT page.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.create_menu">
+<code class="sig-name descname"><span class="pre">create_menu</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.create_menu" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method creates a menu bar that contains several tabs, each
+tab gives access to a feature of the GUI.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.decomp_bwt_huffman_page">
+<code class="sig-name descname"><span class="pre">decomp_bwt_huffman_page</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">unicode_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_seq</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.View.decomp_bwt_huffman_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the Huffman decompression to bwt sequence page.</p>
+<dl class="simple">
+<dt>unicode_seq<span class="classifier">str</span></dt><dd><p>unicode sequence</p>
+</dd>
+<dt>binary_seq<span class="classifier">str</span></dt><dd><p>binary sequence corresponding to the BWT sequence</p>
+</dd>
+<dt>initial_seq<span class="classifier">str</span></dt><dd><p>BWT sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.decomp_huffman_page">
+<code class="sig-name descname"><span class="pre">decomp_huffman_page</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">unicode_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_sequence</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.View.decomp_huffman_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the Huffman decompression page.</p>
+<dl class="simple">
+<dt>unicode_seq<span class="classifier">str</span></dt><dd><p>unicode sequence</p>
+</dd>
+<dt>binary_seq<span class="classifier">str</span></dt><dd><p>binary sequence corresponding to the initial DNA sequence</p>
+</dd>
+<dt>initial_sequence<span class="classifier">str</span></dt><dd><p>DNA initial sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.huffman_bwt_page">
+<code class="sig-name descname"><span class="pre">huffman_bwt_page</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unicode_dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq_unicode</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.View.huffman_bwt_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the BWT to Huffman compression page.</p>
+<dl class="simple">
+<dt>seq<span class="classifier">str</span></dt><dd><p>BWT sequence</p>
+</dd>
+<dt>binary_seq<span class="classifier">str</span></dt><dd><p>binary sequence corresponding to the BWT sequence</p>
+</dd>
+<dt>unicode_dict<span class="classifier">dict</span></dt><dd><p>dictionary with key = binary byte and value = unicode corresponding</p>
+</dd>
+<dt>seq_unicode<span class="classifier">str</span></dt><dd><p>unicode sequence corresponding to the BWT sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.huffman_page">
+<code class="sig-name descname"><span class="pre">huffman_page</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unicode_dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq_unicode</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#view.View.huffman_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the Huffman compression page.</p>
+<dl class="simple">
+<dt>seq<span class="classifier">str</span></dt><dd><p>DNA sequence that you have enter in previous page</p>
+</dd>
+<dt>binary_seq<span class="classifier">str</span></dt><dd><p>binary sequence corresponding to the initial DNA sequence</p>
+</dd>
+<dt>unicode_dict<span class="classifier">dict</span></dt><dd><p>dictionary with key = binary byte and value = unicode corresponding</p>
+</dd>
+<dt>seq_unicode<span class="classifier">str</span></dt><dd><p>unicode sequence corresponding to the initial sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.main">
+<code class="sig-name descname"><span class="pre">main</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.main" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method allows initializes the main window of the GUI.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.main_page">
+<code class="sig-name descname"><span class="pre">main_page</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.main_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the main page of the GUI.
+This page allows to make a Burrows-Weeler transformation or a Huffman
+compression.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.open_file">
+<code class="sig-name descname"><span class="pre">open_file</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.open_file" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method open a selected file to process it according to its
+contents.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.recon_bwt_page">
+<code class="sig-name descname"><span class="pre">recon_bwt_page</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.recon_bwt_page" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method create the BWT sequence to reconstruction DNA sequence
+page.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.reset">
+<code class="sig-name descname"><span class="pre">reset</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.reset" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method allows widget reset, except the widget of the menu bar.
+This function is particularly useful when user changes tabs,
+or also if user clicks on the tab again.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="view.View.reset_button">
+<code class="sig-name descname"><span class="pre">reset_button</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#view.View.reset_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method allows button widget reset.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-main_controller">
+<span id="main-controller"></span><h2>main controller<a class="headerlink" href="#module-main_controller" title="Lien permanent vers ce titre">¶</a></h2>
+<dl class="py class">
+<dt id="main_controller.Controller">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">main_controller.</span></code><code class="sig-name descname"><span class="pre">Controller</span></code><a class="headerlink" href="#main_controller.Controller" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>Class of controller which make the link between TransformeeBW,
+HuffmanCompression, HuffmanDecompression models and the view of the GUI.</p>
+<dl class="py method">
+<dt id="main_controller.Controller.back_to_seq_button">
+<code class="sig-name descname"><span class="pre">back_to_seq_button</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.back_to_seq_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the BWT To Seq button.
+This method launches recontruction of DNA sequence starting from BWT
+sequence, and update the view consequently.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.bwt_button">
+<code class="sig-name descname"><span class="pre">bwt_button</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.bwt_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the BWT button.
+This method launches Burrows-Weeler transformation of DNA sequence, and
+update the view consequently.</p>
+<dl class="simple">
+<dt>seq<span class="classifier">str</span></dt><dd><p>DNA sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.check_file">
+<code class="sig-name descname"><span class="pre">check_file</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.check_file" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when user open file. This method check what
+file is and make action consequently.</p>
+<dl class="simple">
+<dt>path<span class="classifier">str</span></dt><dd><p>path of the file that we want to open</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.decomp_bwt_huffman_button">
+<code class="sig-name descname"><span class="pre">decomp_bwt_huffman_button</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.decomp_bwt_huffman_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the Huffman Decompression button on
+Huffman Compression page when Burrows-Weeler transformation was made
+before Huffman compression.
+This method launches Huffman decompression of unicode sequence, and
+update the view consequently.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.decomp_huffman_button">
+<code class="sig-name descname"><span class="pre">decomp_huffman_button</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.decomp_huffman_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the Huffman Decompression button on
+Huffman Compression page.
+This method launches Huffman decompression of unicode sequence, and
+update the view consequently.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.huffman_button">
+<code class="sig-name descname"><span class="pre">huffman_button</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.huffman_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the Huffman Compression button.
+This method launches Huffman compression of DNA or BWT sequence, and
+update the view consequently.</p>
+<dl class="simple">
+<dt>seq<span class="classifier">str</span></dt><dd><p>DNA sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.huffman_with_bwt_button">
+<code class="sig-name descname"><span class="pre">huffman_with_bwt_button</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.huffman_with_bwt_button" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the Huffman Compression button on
+BWT page when Burrows-Weeler transformation was made.
+This method launches Huffman compression of BWT sequence, and update the
+view consequently.</p>
+<dl class="simple">
+<dt>seq<span class="classifier">str</span></dt><dd><p>BWT sequence</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.main">
+<code class="sig-name descname"><span class="pre">main</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.main" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method allows initialization of the main interface.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.print_final_matrix_bwt">
+<code class="sig-name descname"><span class="pre">print_final_matrix_bwt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.print_final_matrix_bwt" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the View Final Results button on
+BWT page, or when print_matrix_bwt_by_step method is at the last step.
+This method allows display lasts step of Burrows-Weeler transformation
+and BWT sequence.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.print_matrix_bwt_by_step">
+<code class="sig-name descname"><span class="pre">print_matrix_bwt_by_step</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.print_matrix_bwt_by_step" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the Next Step button on BWT page.
+This method allows display Burrows-Weeler transformation step by step.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.print_matrix_recon_bwt">
+<code class="sig-name descname"><span class="pre">print_matrix_recon_bwt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.print_matrix_recon_bwt" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the View Final Results button on
+reconstruction BWT page, or when print_step_recon_bwt method is at the
+last step.
+This method allows display lasts step of recontruction of DNA sequence
+and initial DNA sequence.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="main_controller.Controller.print_step_recon_bwt">
+<code class="sig-name descname"><span class="pre">print_step_recon_bwt</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#main_controller.Controller.print_step_recon_bwt" title="Lien permanent vers cette définition">¶</a></dt>
+<dd><p>This method is called when using the Next Step button on
+reconstruction BWT page.
+This method allows display recontruction of DNA sequence step by step.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Lien permanent vers ce titre">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Index du module</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Page de recherche</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mégane Boujeant.
+
+    </p>
+  </div>
+    
+    
+    
+    Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
