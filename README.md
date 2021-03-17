@@ -6,7 +6,7 @@ Projet de l'UE d'algorithme
 * [Tkinter](https://docs.python.org/3/library/tkinter.html)
 
 ## Documentation of my scripts
-[go to the documentation](
+[go to the documentation](https://meganeboujeant.github.io/Algo_project/)
 
 ## How use this application  ?
 
