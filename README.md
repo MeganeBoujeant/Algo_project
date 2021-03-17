@@ -36,8 +36,13 @@ You can also see the documentation of my scripts in the concern tab.
 
 ## Guide
 
-Here is the diagram that shows the operation of the main page :
-[main_page_diagram](images/main_page_diagram.png)
+Here is the diagram that shows the operation that you can make from the main page :
+
+![main_page_diagram](images/main_page_diagram.png)
+
+Here is the diagram that shows the menu bar of the application :
+
+![menu_bar_diagram](images/menu_bar_diagram.png)
 
 ## Documentation of my scripts
 You can find a web documentation on docs/build/html.
