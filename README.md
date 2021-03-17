@@ -27,6 +27,17 @@ python3 main_controller.py
 
 You arrive on the main page of the application :
 
+![main_page](images/main_page.png)
+
+**Now you can start using the application!**
+
+If you want a user guide, look at the Guide tab below.
+You can also see the documentation of my scripts in the concern tab.
+
+## Guide
+
+Here is the diagram that shows the operation of the main page :
+[main_page_diagram](images/main_page_diagram.png)
 
 ## Documentation of my scripts
 You can find a web documentation on docs/build/html.
